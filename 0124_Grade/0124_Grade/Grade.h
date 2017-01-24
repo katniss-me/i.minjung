@@ -10,4 +10,7 @@
 
 @interface Grade : NSObject
 
++ (NSString *)matchingGrade:(NSInteger)average;
+
+
 @end
