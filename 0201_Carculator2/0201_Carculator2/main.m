@@ -34,7 +34,6 @@ int main(int argc, const char * argv[]) {
         //for문 문제2 : 팩토리얼 문제 풀기
         [Carculator factorialSolution:4];
         
-              
         
     }
     return 0;
