@@ -10,4 +10,17 @@
 
 @interface Carculator : NSObject
 
+- (NSInteger)absoluteNum:(NSInteger)a1;
+
+- (void)round3Num:(CGFloat)num;
+
+- (void)getMultipleicationTable:(NSInteger)dan;
+
++ (NSString*)findMultipleNum:(NSInteger)multiple maxRange:(NSInteger)range;
+
++ (void)gogodan:(NSInteger)dan2;
+
++ (void)factorialSolution:(NSInteger)f1;
+
+
 @end
