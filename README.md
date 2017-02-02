@@ -2,7 +2,7 @@
 ''여기는 민정의 공간입니다.
 공부한 시간 순서대로 적어 놓았습니다."
 
-![katniss](http://m.scoop-scoop.com/show/user/HOME_ATTACH/537/201507?image=1437030525136%3Dimage&width=400&height=345&thumb=l)
+![katniss](http://cfile26.uf.tistory.com/image/25207E4B5428B204029DEC)
 ----------------------------------------------------
 
 
