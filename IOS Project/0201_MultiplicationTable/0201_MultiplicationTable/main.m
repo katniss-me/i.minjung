@@ -29,10 +29,10 @@ int main(int argc, const char * argv[]) {
         
         //triangular구하기
         //while문
-//        [Multiplication getTriangularNum:10];
-//
-        //for문
-//        [Multiplication getTri:10];
+        [Multiplication getTriangularNum:10];
+
+//        for문
+        [Multiplication getTri:10];
         
         
     }
