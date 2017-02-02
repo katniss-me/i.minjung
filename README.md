@@ -1,8 +1,8 @@
 ##"Welcome to MJ's Would!"
-''여기는 아직까지 민정의 공간입니다.
+''여기는 민정의 공간입니다.
 공부한 시간 순서대로 적어 놓았습니다."
 
-![katniss](http://cfile26.uf.tistory.com/image/25207E4B5428B204029DEC)
+![katniss](https://cfile26.uf.tistory.com/image/25207E4B5428B204029DEC)
 ----------------------------------------------------
 
 
