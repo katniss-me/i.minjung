@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0404F661E446713002B8038 /* myImg.png in Resources */ = {isa = PBXBuildFile; fileRef = E0404F651E446713002B8038 /* myImg.png */; };
+		E0404F681E446D11002B8038 /* myImg2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0404F671E446D11002B8038 /* myImg2.png */; };
 		E07D40731E42DBAF00F96AAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E07D40721E42DBAF00F96AAF /* main.m */; };
 		E07D40761E42DBAF00F96AAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E07D40751E42DBAF00F96AAF /* AppDelegate.m */; };
 		E07D40791E42DBAF00F96AAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E07D40781E42DBAF00F96AAF /* ViewController.m */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E0404F651E446713002B8038 /* myImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myImg.png; sourceTree = "<group>"; };
+		E0404F671E446D11002B8038 /* myImg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myImg2.png; sourceTree = "<group>"; };
 		E07D406E1E42DBAF00F96AAF /* 0202_UIView1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 0202_UIView1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E07D40721E42DBAF00F96AAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E07D40741E42DBAF00F96AAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				E07D40751E42DBAF00F96AAF /* AppDelegate.m */,
 				E07D40771E42DBAF00F96AAF /* ViewController.h */,
 				E07D40781E42DBAF00F96AAF /* ViewController.m */,
+				E0404F671E446D11002B8038 /* myImg2.png */,
+				E0404F651E446713002B8038 /* myImg.png */,
 				E07D407A1E42DBAF00F96AAF /* Main.storyboard */,
 				E07D407D1E42DBAF00F96AAF /* Assets.xcassets */,
 				E07D407F1E42DBAF00F96AAF /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			files = (
 				E07D40811E42DBAF00F96AAF /* LaunchScreen.storyboard in Resources */,
 				E07D407E1E42DBAF00F96AAF /* Assets.xcassets in Resources */,
+				E0404F681E446D11002B8038 /* myImg2.png in Resources */,
 				E07D407C1E42DBAF00F96AAF /* Main.storyboard in Resources */,
+				E0404F661E446713002B8038 /* myImg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +318,7 @@
 				E07D40871E42DBAF00F96AAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
