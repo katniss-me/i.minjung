@@ -140,7 +140,7 @@
     UIImage *downSecondImg = [UIImage imageNamed:@"d7.png"];
     
     
-    //frame 3 button
+    //frame 4 button
     UIButton *downSecondBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     downSecondBtn.frame = CGRectMake(subX+1, subY21, 155.5 , 218);
     [downSecondBtn setImage:downSecondImg forState:UIControlStateNormal];
@@ -186,6 +186,7 @@
     thirdDown.backgroundColor = [[UIColor redColor] colorWithAlphaComponent:0.1f];
     [self.view addSubview:thirdDown];
     
+    
     //thirdDown frame 6 sub
     UIView *thirdDownSub = [[UIView alloc] initWithFrame:CGRectMake(subX20, subY20, 335, 47)];
     thirdDownSub.backgroundColor = [[UIColor purpleColor] colorWithAlphaComponent:0.6f];
@@ -206,14 +207,16 @@
     self.thirdDownText2.textAlignment = 1;
     [thirdDown addSubview:self.thirdDownText2];
     
-    //버튼 눌렀을때 액션
+    
+    
+    //*버튼 눌렀을때 액션
     [firstBtn addTarget:self action:@selector(didSelectedBtn:) forControlEvents:UIControlEventTouchUpInside];
     [secondBtn addTarget:self action:@selector(didSelectedBtn:) forControlEvents:UIControlEventTouchUpInside];
     [downFirstBtn addTarget:self action:@selector(didSelectedBtn:) forControlEvents:UIControlEventTouchUpInside];
     [downSecondBtn addTarget:self action:@selector(didSelectedBtn:) forControlEvents:UIControlEventTouchUpInside];
 
     
-    //didSelected 버튼 if문
+    //*didSelected 버튼 if문
 }
 -(void)didSelectedBtn:(UIButton *)sender {
     if([sender.currentTitle isEqualToString:@"first"]){
