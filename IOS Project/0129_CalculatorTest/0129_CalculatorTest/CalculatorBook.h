@@ -22,5 +22,9 @@
 - (void) divide : (double) value;
 
 //void이므로 반환값은 없어도 됨.
+NSMutableArray
+
+NSArray
+
 
 @end

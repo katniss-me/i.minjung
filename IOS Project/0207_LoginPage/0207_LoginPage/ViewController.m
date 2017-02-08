@@ -16,7 +16,8 @@
 @property UITextField *passwordField;
 @property UIButton *nameButton;
 @property UIScrollView *scroll;
-
+@property UILabel *undertext;
+@property UIButton *returnbutton;
 
 
 
@@ -41,20 +42,31 @@
     
     
     
-//ui view 만들기
+//*스크롤 뷰 연동 ui view
     UIView *uiview = [[UIScrollView alloc] initWithFrame:CGRectMake(20, 50, 300, 1334)];
     [self.scroll addSubview:uiview];
     
     
 //*text
-//login text view
-    UILabel *loginlv = [[UILabel alloc] initWithFrame:CGRectMake(50, 50, 300, 50)];
+//*첫번째 로고 텍스트
+    UILabel *loginlv = [[UILabel alloc] initWithFrame:CGRectMake(50, 40, 300, 50)];
     loginlv.text = @"katniss login";
     loginlv.font = [UIFont systemFontOfSize:30];
     loginlv.textColor = [[UIColor redColor] colorWithAlphaComponent:0.8];
     [uiview addSubview:loginlv];
     
-
+    
+//*로그인 되었습니다 text
+    self.undertext = [[UILabel alloc]initWithFrame:CGRectMake(50, 450, 300, 70)];
+    self.undertext.text = @"로그인 되었습니다.";
+    self.undertext.tag =3;
+    self.undertext.textColor = [[UIColor redColor] colorWithAlphaComponent:0.8];
+    self.undertext.font = [UIFont systemFontOfSize:20];
+    [uiview addSubview:self.undertext];
+    
+    
+    
+//*이름 패스워드 라벨
 //name text label
     UILabel *ntl = [[UILabel alloc] initWithFrame:CGRectMake(50, 100, 200, 50)];
     ntl.text = @"이름";
@@ -105,18 +117,19 @@
     
     
 //확인 button
-    UIButton *returnButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    returnButton.frame = CGRectMake(230, 240, 100, 70);
-    [returnButton setTitle:@"확인" forState:UIControlStateNormal];
-    returnButton.titleLabel.font = [UIFont systemFontOfSize:20];
-    [returnButton addTarget:self action:@selector(loginto:)forControlEvents:UIControlEventTouchUpInside];
-    [returnButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-    [uiview addSubview:returnButton];
+    self.returnbutton = [UIButton buttonWithType:UIButtonTypeCustom];
+    self.returnbutton.frame = CGRectMake(230, 240, 100, 70);
+    [self.returnbutton setTitle:@"확인" forState:UIControlStateNormal];
+    self.returnbutton.titleLabel.font = [UIFont systemFontOfSize:20];
+    self.returnbutton.tag =3;
+    [self.returnbutton addTarget:self action:@selector(loginto:)forControlEvents:UIControlEventTouchUpInside];
+    [self.returnbutton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [uiview addSubview:self.returnbutton];
     
     
 }
 
-//스크롤 올라갈때/ 내려갈때
+//스크롤 올라갈때/ 내려갈때 키보드
 
 
 - (void)textFieldDidBeginEditing:(UITextField *)textField
@@ -152,6 +165,22 @@
 }
 
 
+//확인 버튼 누르면 로그인 되었습니다. 나타남
+
+- (void)loginto :(UIButton *)sender
+{
+    if (sender.tag == 3) {
+        NSLog(@"로그인 되었습니다.");
+        [sender resignFirstResponder];
+        [self.returnbutton becomeFirstResponder];
+    }
+    else if (sender.tag ==4){
+        NSLog(@"이런 코드 넣은적 없는데");
+        
+    }
+    
+    
+}
 
 
 
