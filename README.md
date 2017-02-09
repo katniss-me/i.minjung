@@ -130,18 +130,15 @@
 ####1. 프로그래밍
 
 ######(1) OBJECTIVE-C 수업
-* X CODE
+* X CODE (처음해본 스토리보드: "버튼 클릭하면 page 바뀌는것을 하고 싶다."code)
 * 명명법 (pascalCase/camelCase)
 * 객체지향 프로그래밍이란?
-* 메서드 호출과 return nil을 해야하는 이유?
+* Q&A 메서드 호출과 return nil을 해야하는 이유?
 * iterm 사용방법
-* CLASS와 상속 (Class안에 property와 method)
-* PROPERTY (속성)
-* METHOD (행위)
+* CLASS /상속 / property / method / 객체생성 / 초기화 
 * 추상화
-* 객체생성 / 초기화 
-* Set / Get 
-* 메서드 / 구현 / 호출
+* Set / Get / 메서드 / 구현 / 호출
+* 기본 property / method 코드정의 
 * 메서드 특징 (매개변수parameter,반환값returnValue)
 * import vs @class
 * interface (헤더) / implementation (구현부)
