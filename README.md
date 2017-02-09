@@ -19,31 +19,34 @@
 
 ####1. 컴퓨터의 구조
 
-* 비트논리연산 / 부울논리연산
-* &|~
 * 컴퓨터의 구조
+* 비트논리연산 / 부울논리연산
 
 
-####2. 운영체제
+####2. 소프트웨어 공학
 
-* 운영체제의 목적
-* 운영체제가 하는일
-* SJF (Sortest job first)
-* RRS (Round robin scheduling)
-* RBS (Priority based sheduling)
-* MQS (Multi queue scheduling)
-* 주기억장치 관리
-* 파일 시스템
-* Kernel (커널)
-* 운영체제의 순서
-* 알고리즘
-* 자료구조
-* STACK (스택)
-* QUEUE (큐)
-* Dequeue (덱)
-* Tree (트리)
-* Graph (그래프)
-* 시간복잡도
+* 소프트웨어 개발 방법론
+* UML (Unified modeling language)
+* TTD (Test-driven development)
+* PDD (Plan-driven development)
+* 형상관리 / 버전관리 
+* 고급언어에서 저급언어로 변환되는 과정에 따른 분류
+* 컴파일 언어
+* 바이트 코드 언어
+* 인터프리터 언어
+* 컴파일러 방식 (c,c++)
+* 바이트 코드 방식 (java,c#)
+* 인터프리터 방식 (javascript,Python,Ruby)
+* 인터프리터와 컴파일러 차이점
+* 프로그래밍 패러다임에 따른 분류
+* 객체지향 프로그래밍 패러다임
+* API (Application Programming Interface)
+* FRAMEWORK
+* Cocoa touch framework
+* 디자인 패턴
+* MVVM (Model-view-viewmodel)
+* IDE(Integrated development environment)
+* SDK(Software development kit)
 
 
 ####3. 데이터베이스와 네트워크
@@ -84,30 +87,27 @@
 
 
 
-####5. 소프트웨어 공학
 
-* 소프트웨어 개발 생명주기 모델
-* 소프트웨어 개발 방법론
-* UML (Unified modeling language)
-* TTD (Test-driven development)
-* PDD (Plan-driven development)
-* 고급언어에서 저급언어로 변환되는 과정에 따른 분류
-* 컴파일 언어
-* 바이트 코드 언어
-* 인터프리터 언어
-* 컴파일러 방식 (c,c++)
-* 바이트 코드 방식 (java,c#)
-* 인터프리터 방식 (javascript,Python,Ruby)
-* 인터프리터와 컴파일러 차이점
-* 프로그래밍 패러다임에 따른 분류
-* 객체지향 프로그래밍 패러다임
-* API (Application Programming Interface)
-* FRAMEWORK
-* Cocoa touch framework
-* 디자인 패턴
-* MVVM (Model-view-viewmodel)
-* IDE(Integrated development environment)
-* SDK(Software development kit)
+####5. 운영체제
+
+* 운영체제의 목적
+* 운영체제가 하는일
+* SJF (Sortest job first)
+* RRS (Round robin scheduling)
+* RBS (Priority based sheduling)
+* MQS (Multi queue scheduling)
+* 주기억장치 관리
+* 파일 시스템
+* Kernel (커널)
+* 운영체제의 순서
+* 알고리즘
+* 자료구조
+* STACK (스택)
+* QUEUE (큐)
+* Dequeue (덱)
+* Tree (트리)
+* Graph (그래프)
+* 시간복잡도
 
 
 
