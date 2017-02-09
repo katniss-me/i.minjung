@@ -40,7 +40,7 @@
 * 인터프리터와 컴파일러 차이점
 * 프로그래밍 패러다임에 따른 분류
 * 객체지향 프로그래밍 패러다임
-* API (Application Programming Interface)
+* API (Application Programming Interface)(https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/API%20(Application%20Programming%20Interface).md)
 * FRAMEWORK
 * Cocoa touch framework
 * 디자인 패턴
