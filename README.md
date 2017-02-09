@@ -140,9 +140,7 @@
 * Set / Get / 메서드 / 구현 / 호출
 * 기본 property / method 코드정의 
 * 메서드 특징 (매개변수parameter,반환값returnValue)
-* import vs @class
-* interface (헤더) / implementation (구현부)
-* 인스턴스화 (객체화)
+* Calculator설명
 * 조건문 
 * 비교연산자 / 논리연산자 / 형식지정자
 * 숫자표현 (정수,실수,객체형)
