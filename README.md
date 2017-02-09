@@ -119,7 +119,8 @@
 * 앱 애플리케이션의 접근성의 현 상황
 * 객체지향개발의 특성
 * framework와 library의 차이
-* 
+* Literal
+* Json(i.minjung/IOS homework/JSON.pdf)
  
 
 
