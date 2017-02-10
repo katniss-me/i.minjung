@@ -1,4 +1,4 @@
-####* 버튼 클릭하면 page 바뀌는것을 하고 싶다.
+###* 버튼 클릭하면 page 바뀌는것을 하고 싶다.
 
 1. Main storyboard에 view 버튼 올려놓기
 2. 페이지 버튼 클릭 > 오른쪽에 inspector 보면, inspector bar > custom class에 보면
@@ -11,9 +11,9 @@
     을 써넣는다.
 sethidden은 가리는것이고, no 하면, 가리지 않겠다는것, yes는 가리는것.
 
-
 ```
 
+```
 - (IBAction)pageClick:(UISegmentedControl *)sender
 {
     if (sender.selectedSegmentIndex == 0) {
@@ -30,7 +30,7 @@ sethidden은 가리는것이고, no 하면, 가리지 않겠다는것, yes는 �
 6.command+r run 시키면, 뜸
 
 
-* 컴파일러에서 띄어쓰기도 하나의 문법
+###* 컴파일러에서 띄어쓰기도 하나의 문법
 이름을 넣을때 공벅을 넣으면 안됨.
 각각 단어가 끝나는 앞에 대문자로 쓰면 구분이 된다. 
 안헷갈리게 하기 위해서 .
