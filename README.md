@@ -12,14 +12,28 @@
 
 ##|. PROJECT
 
-* 점수 계산기 (Grade)
-* 계산기 Test (Calculator)
-* 절대값 구하기 (양수만 구하기), 소수점 3째 자리에서 반올림, 구구단, 팩토리얼
-* 구구단구현, 삼각수구하기, 팩토리얼 (while, for문)
-* 
-* 
+* [점수 계산기 (Grade)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0124_Grade)
+* [계산기 Test (Calculator)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0129_CalculatorTest)
+* [절대값 구하기 (양수만 구하기), 소수점 3째 자리에서 반올림, 구구단, 팩토리얼]
+
+* [구구단구현, 삼각수구하기, 팩토리얼, 배수찾기 (while, for문)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0201_Carculator2)
+* [while, for문 공부 구구단/ triangular ](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0201_MultiplicationTable)
+
+#### UI
+* [UI View (기본 뷰에 title, text, UI button 예제)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0202_UIView1)
+* [UI View 과제 (자판기 Bending machine)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0205_BendingMachine)
+* [UI button, UI label](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0206%20UIButton)
+* [UI TextField, Delegate](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0206_UITextField)
+* [UI Scrollview/ UI PageControl](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0207%20PageScrollX)
+* [Login Page](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0207_LoginPage)
+* [bubbleSort 알고리즘 (NSArray/ NSMutableArray /NSDictionary)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0209%20Dictionary)
 
 
+#### 책예제
+* [분수를 다루는 프로그램, 인스턴스 변수에 접근하는 프로그램, 덧셈, 뺄셈, 곱셈, 나눗셈을 해보자](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0129_BookTest)
+* [삼각수를 계산하는 프로그램](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0130_Triangular)
+
+ 
 ##||. 컴퓨터 
 ####1. 컴퓨터의 구조
 
@@ -135,6 +149,7 @@
 * [iterm 사용방법](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/iterm%20%EC%82%AC%EC%9A%A9%EB%B0%A9%EB%B2%95.md)
 * [CLASS /상속 / property / method / 객체생성 / 초기화](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/CLASS%20:%EC%83%81%EC%86%8D%20:%20property%20:%20method%20:%20%EA%B0%9D%EC%B2%B4%EC%83%9D%EC%84%B1%20:%20%EC%B4%88%EA%B8%B0%ED%99%94%20.md)
 * [property 속성, 코드정의] (https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/property%EC%86%8D%EC%84%B1.md)
+* [ARC](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/ARC.md)
 * [Set / Get / 메서드 / 구현 / 호출](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/Set%20:%20Get%20:%20%EB%A9%94%EC%84%9C%EB%93%9C%20:%20%EA%B5%AC%ED%98%84%20:%20%ED%98%B8%EC%B6%9C.md)
 * [메서드 특징 (매개변수parameter,반환값returnValue)](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/method%20%ED%8A%B9%EC%A7%95.md)
 * [Calculator코드설명](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/Calculator%EC%84%A4%EB%AA%85.md)
@@ -145,10 +160,10 @@
 * [참조타입 (레퍼런스타입)](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/%ED%98%95%EC%83%81%EA%B4%80%EB%A6%AC%20:%20%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC%20.md)
 * Self
 * BOOL
-* If else [
+* If else 
 * while / for / for in
-* algorithm (알고리즘)
-* [ARC](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/ARC.md)
+* 자료구조 algorithm (알고리즘) 
+
 
 
 ######(2) OBJECTIVE-C 책
