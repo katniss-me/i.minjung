@@ -17,12 +17,40 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSString
+    
+    //upgrade for문 해보기
+//    NSArray *list1 = @[@"k",@"o",@"r",@"e",@"a"];
+//    NSArray *list2 = @[@"e",@"r",@"a",@"s",@"e",@"r"];
+    
+    //string 반으로 나눠서 0,1,2
+//    substringwithrange > arrange에 넣어
+    //string > array로 바꾸는 것 or string으로만.
+    //잘라서, if문 짝수면, +-
+    //string으로 바로 하면, korea
+    
+   
+    
+    //for문 실습
+    NSArray *list2 = @[@"1",@"2",@"3",@"4",@"5"];
+    
+    for (NSInteger i=0; i<list2.count; i++)
+    {
+        NSLog(@"%@",list2[i]);
+    }
+    
+    //이 for문과 같게 쓰는 것. for - in문.
+    for (NSString *num in list2)
+    {
+        NSLog(@"%@",num);
+    }
+    
     
     
     //1. Array 실습
     
     NSArray *list = [[NSArray alloc] initWithObjects:@"1",@"2",@"3", nil];
-//    NSArray *list2 = @[@"1",@"2",@"3",@"4",@"5"];
+
     
     
     NSDictionary *dic = [[NSDictionary alloc] initWithObjects:@[@"joo",@"joo1"] forKeys:@[@"key1",@"key2"]];
@@ -76,7 +104,9 @@
         NSString *str2 = [dic2 objectForKey:key];
         result = [result stringByAppendingString:[NSString stringWithFormat:@"%@ |",str2]];
         
-//                         //더해서 반환함 //stringwithformat은 | 을 사용하는 것. 스트링을 포멧형태로 사용하겠다.
+        
+        
+//더해서 반환함 //stringwithformat은 | 을 사용하는 것. 스트링을 포멧형태로 사용하겠다.
 
     //array를 mutablearray로 확인하면 된다.
     NSMutableArray *result = [[NSMutableArray alloc] init];
@@ -114,7 +144,7 @@
                 NSInteger sN = [[sortedList objectAtIndex:j+1] integerValue];
                 //i번째와 i+1번째 두 수를 비교
                 if (fN>sN) {
-                    //i>i+1 이라면 두 수를 수압
+                    //i>i+1 이라면 두 수를 스압
                     [sortedList replaceObjectAtIndex:j withObject:[NSString stringWithFormat:@"%ld",sN]];
                     [sortedList replaceObjectAtIndex:j+1 withObject:[NSString stringWithFormat:@"%ld",fN]];
                     
@@ -127,7 +157,7 @@
     
 
 //        4.bubblesort alorithm
-NSArray
+
 
 
 
