@@ -4,13 +4,13 @@
 ###1. 프로퍼티 정의
 ```
 @property id name;
-```
+
  <데이터타입><프로퍼티이름>
-              
+ ```     
 
 -객체가 가질수있는 특징/상태등의 값.
 
-*최종적으로,
+* 최종적으로,
 
 ```
 @interface Person : NSObject
@@ -26,7 +26,7 @@
 - (id)methodName;
 ```
 
-최종적으로
+* 최종적으로
 
 ```
 @interface Person : NSObject
@@ -47,12 +47,12 @@
 [클래스이름 alloc];
 ```
 
-객체초기화
+* 객체초기화
 ```
 [객체 init];
 ```
 
-최종적으로,
+* 최종적으로,
 ```
 [[Person alloc] init];
 ```
@@ -83,7 +83,7 @@ Person **me [[Person alloc] init];
 - (id) eat;
 ```
 
-여러번 부르면 
+* 여러번 부르면 
 
 ```
 - (id) eat:(id)food;
@@ -153,11 +153,13 @@ return nil;
 h 파일 - 메소드에 있는 name
 implementation 파일 - * 변수 name 은 같으면 앞에 _를 붙인다. =>  *_name
 
+
 ##* property
 :자동 접근자 메소드 생성 
 :self
 :안보이지만 자동적으로 사용
 :변수가 어마어마하게 많이 만들어지는 걸 좋고 편하게 하기 위해  property를 쓴다.
+
 ex) 
 ```
 - (NSSTring *)name;
@@ -165,7 +167,7 @@ ex)
 @end
 ```
 
-이렇게 property를 쓴다.
+* 이렇게 property를 쓴다.
 
 ```
 @interface NewClass : NSObject
