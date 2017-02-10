@@ -128,13 +128,15 @@
 ##|||. homework
 
 
-* RAM의 뜻과 한글 인코딩 방식
-* 공인인증서의 위험성
-* 앱 애플리케이션의 접근성의 현 상황
-* 객체지향개발의 특성
-* framework와 library의 차이
-* Literal
-* Json
+
+* [RAM의 뜻과 한글 인코딩 방식](https://github.com/katniss-me/i.minjung/blob/master/IOS%20homework/LAM%EC%9D%98%20%EB%9C%BB.pdf)
+* [공인인증서의 위험성](https://github.com/katniss-me/i.minjung/blob/master/IOS%20homework/activeX.pdf)
+* [앱 애플리케이션의 접근성의 현 상황](https://github.com/katniss-me/i.minjung/blob/master/IOS%20homework/%EC%9B%B9%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EC%9D%98%20%EC%A0%91%EA%B7%BC%EC%84%B1.pdf)
+* [객체지향개발의 특성](https://github.com/katniss-me/i.minjung/blob/master/IOS%20homework/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EA%B0%9C%EB%B0%9C%20%ED%8A%B9%EC%A7%95.pdf)
+* [framework와 library의 차이](https://github.com/katniss-me/i.minjung/blob/master/IOS%20homework/framework%EC%99%80%20library%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
+* [Literal](https://github.com/katniss-me/i.minjung/blob/master/IOS%20homework/literal.pdf)
+* [Json](https://github.com/katniss-me/i.minjung/blob/master/IOS%20homework/JSON.pdf)
+ 
  
 
 
