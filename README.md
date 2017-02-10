@@ -14,8 +14,8 @@
 
 * [점수 계산기 (Grade)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0124_Grade)
 * [계산기 Test (Calculator)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0129_CalculatorTest)
-* [절대값 구하기 (양수만 구하기), 소수점 3째 자리에서 반올림, 구구단, 팩토리얼]
-
+* [절대값 구하기 (양수만 구하기), 소수점 3째 자리에서 반올림, 구구단, 팩토리얼](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0130_Triangular)
+* [생일확인 메소드,월의 마지막날 구하기 (switch)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0131_Self%20Check%20Test)
 * [구구단구현, 삼각수구하기, 팩토리얼, 배수찾기 (while, for문)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0201_Carculator2)
 * [while, for문 공부 구구단/ triangular ](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0201_MultiplicationTable)
 
@@ -200,7 +200,7 @@
 
 ##2. UI
 
-* [X CODE] (처음해본 스토리보드: "버튼 클릭하면 page 바뀌는것을 하고 싶다."code)](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/%EB%B2%84%ED%8A%BC%20%ED%81%B4%EB%A6%AD%ED%95%98%EB%A9%B4%20page%20%EB%B0%94%EB%80%8C%EB%8A%94%EA%B2%83%EC%9D%84%20%ED%95%98%EA%B3%A0%20%EC%8B%B6%EB%8B%A4.md)
+* [X CODE (처음해본 스토리보드: "버튼 클릭하면 page 바뀌는것을 하고 싶다."code)](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/%EB%B2%84%ED%8A%BC%20%ED%81%B4%EB%A6%AD%ED%95%98%EB%A9%B4%20page%20%EB%B0%94%EB%80%8C%EB%8A%94%EA%B2%83%EC%9D%84%20%ED%95%98%EA%B3%A0%20%EC%8B%B6%EB%8B%A4.md)
 
 
 
