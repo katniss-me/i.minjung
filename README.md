@@ -11,7 +11,8 @@
 
 
 ##|. PROJECT
-
+<br>
+####1.code 
 * [점수 계산기 (Grade)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0124_Grade)
 * [계산기 Test (Calculator)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0129_CalculatorTest)
 * [절대값 구하기 (양수만 구하기), 소수점 3째 자리에서 반올림, 구구단, 팩토리얼](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0130_Triangular)
@@ -19,7 +20,8 @@
 * [구구단구현, 삼각수구하기, 팩토리얼, 배수찾기 (while, for문)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0201_Carculator2)
 * [while, for문 공부 구구단/ triangular ](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0201_MultiplicationTable)
 
-#### UI
+<br>
+####2.UI
 * [UI View (기본 뷰에 title, text, UI button 예제)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0202_UIView1)
 * [UI View 과제 (자판기 Bending machine)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0205_BendingMachine)
 * [UI button, UI label](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0206%20UIButton)
@@ -28,8 +30,8 @@
 * [Login Page](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0207_LoginPage)
 * [bubbleSort 알고리즘 (NSArray/ NSMutableArray /NSDictionary)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0209%20Dictionary)
 
-
-#### 책예제
+<br>
+#### 3.책예제
 * [분수를 다루는 프로그램, 인스턴스 변수에 접근하는 프로그램, 덧셈, 뺄셈, 곱셈, 나눗셈을 해보자](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0129_BookTest)
 * [삼각수를 계산하는 프로그램](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0130_Triangular)
 
