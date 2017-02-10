@@ -136,6 +136,7 @@
 * Q&A 메서드 호출과 return nil을 해야하는 이유?
 * iterm 사용방법
 * CLASS /상속 / property / method / 객체생성 / 초기화 
+* property 속성 
 * 추상화
 * Set / Get / 메서드 / 구현 / 호출
 * 기본 property / method 코드정의 
@@ -151,7 +152,9 @@
 * BOOL
 * If else
 * switch
-* while / for
+* while / for / for in
+* algorithm (알고리즘)
+
 
 ######(1) OBJECTIVE-C 책
 * return 0;
@@ -177,7 +180,9 @@
 * Q. @property 설정 시 (nonatomic, weak)의 의미
 * Q. 매서드'정의' " - (<반환타입>)<메서드이름>..." -이것이 정확히 무엇인지
 * Q. 자동으로 release하는 것과 수동으로 release하는 것의 차이는?
-* 
+
+
+
 
 ##**||||. 프로그램 기본문 예제**
 
