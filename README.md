@@ -6,7 +6,7 @@
 
 
 
-* [vimeo 홈페이지](www.vimeo.com/chunmandu)
+* [vimeo 홈페이지](https://vimeo.com/chunmandu)
 
 
 
