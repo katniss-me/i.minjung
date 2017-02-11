@@ -141,7 +141,7 @@
 
 
 
-##||||. IOS
+##|V. IOS
 
 ####1. objective c
 
@@ -198,11 +198,8 @@
 
 
 
-##**||||. UI
 
-
-
-##2. UI
+##V. UI
 
 * [X CODE (처음해본 스토리보드: "버튼 클릭하면 page 바뀌는것을 하고 싶다."code)](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/%EB%B2%84%ED%8A%BC%20%ED%81%B4%EB%A6%AD%ED%95%98%EB%A9%B4%20page%20%EB%B0%94%EB%80%8C%EB%8A%94%EA%B2%83%EC%9D%84%20%ED%95%98%EA%B3%A0%20%EC%8B%B6%EB%8B%A4.md)
 
