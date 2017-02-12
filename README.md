@@ -39,7 +39,7 @@
 ##||. 컴퓨터 
 ####1. 컴퓨터의 구조
 
-* 컴퓨터의 구조
+* [컴퓨터의 구조](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/%EC%BB%B4%ED%93%A8%ED%84%B0%EC%9D%98%20%EA%B5%AC%EC%A1%B0.md)
 * [비트논리연산 / 부울논리연산](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/%EB%B9%84%ED%8A%B8%EB%85%BC%EB%A6%AC%EC%97%B0%EC%82%B0%20:%20%EB%B6%80%EC%9A%B8%EB%85%BC%EB%A6%AC%EC%97%B0%EC%82%B0.md)
 
 
@@ -62,11 +62,12 @@
 * [MVVM (Model-view-viewmodel)](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4.md)
 
 
-
+<br>
 ####3. 데이터베이스와 네트워크
 
-* 데이터베이스 / 네트워크 / 암호화
+* [데이터베이스 / 네트워크 / 암호화](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4.md)
 
+<br>
 ####4. 프로토콜과 암호화
 
 * HTTP
