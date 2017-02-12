@@ -11,6 +11,10 @@
 
 
 
+
+
+
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
   
@@ -24,10 +28,15 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"The result is %g", [calculator accumulator]);
         
-        
-        
-        
+    
+    
+         return 0;
         
     }
-    return 0;
+
+
+   @end
 }
+
+
+

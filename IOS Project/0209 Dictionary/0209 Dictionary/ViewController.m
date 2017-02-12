@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString
+   
     
     //upgrade for문 해보기
 //    NSArray *list1 = @[@"k",@"o",@"r",@"e",@"a"];
@@ -79,6 +79,7 @@
 
     
     //2. 중복빼기 문제
+    
     //1 1 3 3 6 7 8 > 1 3 6 7 8
     //스트링으로 받고, a,b,a,c,b 이렇게 받으면 줄이는 메소드 지나면, a,b,c이렇게 세개만 남아야 함.
 
@@ -155,8 +156,6 @@
     return sortedList;
     }
     
-
-//        4.bubblesort alorithm
 
 
 

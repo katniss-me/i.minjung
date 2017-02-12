@@ -17,62 +17,62 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    UIView *myView = [[UIView alloc] initWithFrame:CGRectMake(0,0,100,300)];
-//    myView.backgroundColor = [UIColor blueColor];
-//    myView.clipsToBounds = YES;
-//    [self.view addSubview:myView];
+    UIView *myView = [[UIView alloc] initWithFrame:CGRectMake(0,0,100,300)];
+    myView.backgroundColor = [UIColor blueColor];
+    myView.clipsToBounds = YES;
+    [self.view addSubview:myView];
+    
+    UIView *subView = [[UIView alloc] init];
+    subView.frame = CGRectMake(10, 30, 50, 200);
+    [subView setBackgroundColor:[UIColor redColor]];
+    //이건 myView.backgroundColor = [UIColor blueColor];
+    //이것과 완전 같다.
+    [myView addSubview:subView];
+//
 //    
-//    UIView *subView = [[UIView alloc] init];
-//    subView.frame = CGRectMake(10, 30, 50, 200);
-//    [subView setBackgroundColor:[UIColor redColor]];
-//    //이건 myView.backgroundColor = [UIColor blueColor];
-//    //이것과 완전 같다.
-//    [myView addSubview:subView];
-////
-////    
 
     //1번 문제 : 안에 3개 view 만들기
 //    
-//    UIView *myView2 = [[UIView alloc] initWithFrame:CGRectMake(15,15,self.view.frame.size.width-30,self.view.frame.size.height-30)];
-//    myView2.backgroundColor = [UIColor blueColor];
-//    [self.view addSubview:myView2];
-//    
-//    UIView *subView2 = [[UIView alloc] initWithFrame:CGRectMake(15, 15, myView2.frame.size.width -30, myView2.frame.size.height -30)];
-//    [subView setBackgroundColor:[UIColor blackColor]];
-//    [myView2 addSubview:subView2];
-//    
-//    UIView *subView3 = [[UIView alloc] initWithFrame:CGRectMake(15, 15, subView2.frame.size.width -30, subView2.frame.size.height -30)];
-//    [subView3 setBackgroundColor:[UIColor grayColor]];
-//    [myView addSubview:subView3];
+    UIView *myView2 = [[UIView alloc] initWithFrame:CGRectMake(15,15,self.view.frame.size.width-30,self.view.frame.size.height-30)];
+    myView2.backgroundColor = [UIColor blueColor];
+    [self.view addSubview:myView2];
+    
+    UIView *subView2 = [[UIView alloc] initWithFrame:CGRectMake(15, 15, myView2.frame.size.width -30, myView2.frame.size.height -30)];
+    [subView setBackgroundColor:[UIColor blackColor]];
+    [myView2 addSubview:subView2];
+    
+    UIView *subView3 = [[UIView alloc] initWithFrame:CGRectMake(15, 15, subView2.frame.size.width -30, subView2.frame.size.height -30)];
+    [subView3 setBackgroundColor:[UIColor grayColor]];
+    [myView addSubview:subView3];
 //
     
 //      //2번 문제 1 : 전체 창 하나 위에 위 height 64, 아래 height 48 띄운 view하나 만들기
 //
-////    
-//    UIView *myView3 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
-//    [myView3 setBackgroundColor :[UIColor greenColor]];
-//    [self.view addSubview:myView3];
 //    
-//    UIView *myViewSub = [[UIView alloc] initWithFrame:CGRectMake(0, 64, myView3.frame.size.width, myView3.frame.size.height -64 -48)];
-//    [myViewSub setBackgroundColor : [UIColor blackColor]];
-//    [myView2 addSubview:myViewSub];
-//    
+    UIView *myView3 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    [myView3 setBackgroundColor :[UIColor greenColor]];
+    [self.view addSubview:myView3];
+    
+    UIView *myViewSub = [[UIView alloc] initWithFrame:CGRectMake(0, 64, myView3.frame.size.width, myView3.frame.size.height -64 -48)];
+    [myViewSub setBackgroundColor : [UIColor blackColor]];
+    [myView2 addSubview:myViewSub];
+//
     
 
     
     //3번 문제 : 중앙에 긴 네모 4개 배치하기
     //container
     CGSize allFrame = self.view.frame.size;
-//    UIView *container = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
-//    [container setBackgroundColor:[UIColor greenColor]];
-//    [container setCenter:CGPointMake(allFrame.width/2, allFrame.height/2)];
-//    [self.view addSubview:container];
-//    
-//    //1.
-//    UIView *viewSub1 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 90, 10)];
-//    [viewSub1 setBackgroundColor:[UIColor redColor]];
-//    [container addSubview:viewSub1];
-//    
+    UIView *container = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    [container setBackgroundColor:[UIColor greenColor]];
+    [container setCenter:CGPointMake(allFrame.width/2, allFrame.height/2)];
+    [self.view addSubview:container];
+    
+    //1.
+    UIView *viewSub1 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 90, 10)];
+    [viewSub1 setBackgroundColor:[UIColor redColor]];
+    [container addSubview:viewSub1];
+    
     
 //    UILabel
 //    UIImageView
