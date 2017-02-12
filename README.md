@@ -65,19 +65,7 @@
 
 ####3. 데이터베이스와 네트워크
 
-* IDB
-* DBMS
-* SQL
-* NOSQL
-* 네트워크
-* LAN
-* MAN
-* WAN
-* INTERNET
-* TCP
-* IP
-* WWW
-* URL / URI
+* 데이터베이스 / 네트워크 / 암호화
 
 ####4. 프로토콜과 암호화
 
