@@ -52,7 +52,7 @@
 * [형상관리 / 버전관리 ](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/%ED%98%95%EC%83%81%EA%B4%80%EB%A6%AC%20:%20%EB%B2%84%EC%A0%84%EA%B4%80%EB%A6%AC%20.md)
 * [고급언어에서 저급언어로 변환되는 과정에 따른 분류](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/%EA%B3%A0%EA%B8%89%EC%96%B8%EC%96%B4%EC%97%90%EC%84%9C%20%EC%A0%80%EA%B8%89%EC%96%B8%EC%96%B4%EB%A1%9C%20%EB%B3%80%ED%99%98%EB%90%98%EB%8A%94%20%EA%B3%BC%EC%A0%95%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EB%B6%84%EB%A5%98.md)
 
-* [컴파일러 방식 (c,c++)/ 바이트 코드 방식 (java,c#)/ 인터프리터 방식 (javascript,Python,Ruby)]((https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/%EA%B3%A0%EA%B8%89%EC%96%B8%EC%96%B4%EC%97%90%EC%84%9C%20%EC%A0%80%EA%B8%89%EC%96%B8%EC%96%B4%EB%A1%9C%20%EB%B3%80%ED%99%98%EB%90%98%EB%8A%94%20%EA%B3%BC%EC%A0%95%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EB%B6%84%EB%A5%98.md))
+* [컴파일러 방식 (c,c++)/ 바이트 코드 방식 (java,c#)/ 인터프리터 방식 (javascript,Python,Ruby)](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/%EA%B3%A0%EA%B8%89%EC%96%B8%EC%96%B4%EC%97%90%EC%84%9C%20%EC%A0%80%EA%B8%89%EC%96%B8%EC%96%B4%EB%A1%9C%20%EB%B3%80%ED%99%98%EB%90%98%EB%8A%94%20%EA%B3%BC%EC%A0%95%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EB%B6%84%EB%A5%98.md)
 * [객체지향 프로그래밍 패러다임](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84.md)
 * [API(Application Programming Interface)](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/API%20(Application%20Programming%20Interface).md)
 * [FRAMEWORK](https://github.com/katniss-me/i.minjung/blob/master/IOS%20File/framework.md)
