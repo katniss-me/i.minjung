@@ -30,10 +30,10 @@
 * [UI TextField, Delegate](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0206_UITextField)
 * [UI Scrollview/ UI PageControl](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0207%20PageScrollX)
 * [Login Page](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0207_LoginPage)
-* Page Scroll Test 
-* App Life Cycle 실습(loadView/viewWillAppear/viewDidDisappear)
-* UI Table View 실습 (code로 섹션 두개까지)
-* Custom Table 과제 (View Storyboard로)
+* [Page Scroll Test](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0207%20PageScrollX)
+* [App Life Cycle 실습(loadView/viewWillAppear/viewDidDisappear)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0213_%20APP%20Life%20Cycle)
+* [UI Table View 실습 (code로 섹션 두개까지)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0215_UITableView_Test)
+* [Custom Table 과제 (View Storyboard로)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0216%20CustomTableView)
 
 
 <br>
