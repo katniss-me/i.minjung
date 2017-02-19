@@ -6,7 +6,7 @@
 
 
 
-* [vimeo 홈페이지](https://vimeo.com/chunmandu)
+* [나의 vimeo 영상 홈페이지](https://vimeo.com/chunmandu)
 
 
 
@@ -19,6 +19,8 @@
 * [생일확인 메소드,월의 마지막날 구하기 (switch)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0131_Self%20Check%20Test)
 * [구구단구현, 삼각수구하기, 팩토리얼, 배수찾기 (while, for문)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0201_Carculator2)
 * [while, for문 공부 구구단/ triangular ](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0201_MultiplicationTable)
+* [bubbleSort 알고리즘 (NSArray/ NSMutableArray /NSDictionary)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0209%20Dictionary)
+
 
 <br>
 ####2.UI
@@ -28,7 +30,11 @@
 * [UI TextField, Delegate](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0206_UITextField)
 * [UI Scrollview/ UI PageControl](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0207%20PageScrollX)
 * [Login Page](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0207_LoginPage)
-* [bubbleSort 알고리즘 (NSArray/ NSMutableArray /NSDictionary)](https://github.com/katniss-me/i.minjung/tree/master/IOS%20Project/0209%20Dictionary)
+* Page Scroll Test 
+* App Life Cycle 실습(loadView/viewWillAppear/viewDidDisappear)
+* UI Table View 실습 (code로 섹션 두개까지)
+* Custom Table 과제 (View Storyboard로)
+
 
 <br>
 #### 3.책예제

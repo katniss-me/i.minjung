@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E092F53F1E558DDB007FDAF5 /* DataCenter in Resources */ = {isa = PBXBuildFile; fileRef = E092F53E1E558DDB007FDAF5 /* DataCenter */; };
 		E0DC4ABB1E49E83500B1BCC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DC4ABA1E49E83500B1BCC5 /* main.m */; };
 		E0DC4ABE1E49E83500B1BCC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DC4ABD1E49E83500B1BCC5 /* AppDelegate.m */; };
 		E0DC4AC11E49E83500B1BCC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DC4AC01E49E83500B1BCC5 /* ViewController.m */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E092F53E1E558DDB007FDAF5 /* DataCenter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DataCenter; sourceTree = "<group>"; };
 		E0DC4AB61E49E83500B1BCC5 /* 0207 PageScrollX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0207 PageScrollX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0DC4ABA1E49E83500B1BCC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E0DC4ABC1E49E83500B1BCC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		E0DC4AAD1E49E83500B1BCC5 = {
 			isa = PBXGroup;
 			children = (
+				E092F53E1E558DDB007FDAF5 /* DataCenter */,
 				E0DC4AB81E49E83500B1BCC5 /* 0207 PageScrollX */,
 				E0DC4AB71E49E83500B1BCC5 /* Products */,
 			);
@@ -152,6 +155,7 @@
 				E0DC4AC91E49E83500B1BCC5 /* LaunchScreen.storyboard in Resources */,
 				E0DC4AD11E49F11E00B1BCC5 /* d8.png in Resources */,
 				E0DC4AC61E49E83500B1BCC5 /* Assets.xcassets in Resources */,
+				E092F53F1E558DDB007FDAF5 /* DataCenter in Resources */,
 				E0DC4AC41E49E83500B1BCC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +326,7 @@
 				E0DC4ACF1E49E83500B1BCC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
