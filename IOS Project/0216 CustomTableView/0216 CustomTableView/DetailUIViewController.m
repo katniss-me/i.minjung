@@ -8,30 +8,27 @@
 
 #import "DetailUIViewController.h"
 
-@interface DetailUIViewController ()
-
-@end
 
 @implementation DetailUIViewController
 
-- (void)viewDidLoad {
+@synthesize nameLabel,amountLabel,valueLabel,ImgView,detailData;
+
+-(void)viewDidLoad{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    NSLog(@"%@",detailData);
+    
+    nameLabel.text = [detailData objectForKey:@"name"];
+    valueLabel.text = [detailData objectForKey:@"value"];
+    amountLabel.text = [detailData objectForKey:@"amount"];
+    ImgView.image = [UIImage imageNamed:[detailData objectForKey:@"img"]];
+    
+    
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning{
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

@@ -8,6 +8,7 @@
 
 #import "MasterViewController.h"
 #import "CustomCell.h"
+#import "DetailUIViewController.h"
 
 @interface MasterViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic) NSArray *dataList;
@@ -73,6 +74,15 @@
     
     return cell;
 }
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if ([[segue identifier] isEqualToString:@"showDetail"]) {
+         NSIndexPath *indexPath =[self.tableView indexPathForSelectedRow];
+        [segue destinationViewController];
+    }
+    
+}
+    
 
 
 @end

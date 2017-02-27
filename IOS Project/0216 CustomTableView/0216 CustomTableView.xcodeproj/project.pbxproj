@@ -64,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				E07C142A1E55DB1F00CE149A /* Resorces */,
-				E07C14061E55D79E00CE149A /* 0216 CostomTableView */,
+				E07C14061E55D79E00CE149A /* 0216 CustomTableView */,
 				E07C14051E55D79E00CE149A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,7 +77,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E07C14061E55D79E00CE149A /* 0216 CostomTableView */ = {
+		E07C14061E55D79E00CE149A /* 0216 CustomTableView */ = {
 			isa = PBXGroup;
 			children = (
 				E07C140A1E55D79E00CE149A /* AppDelegate.h */,
@@ -89,14 +89,14 @@
 				E0244B551E5711220007A076 /* CustomCell.m */,
 				E07C14271E55DAA600CE149A /* DetailUIViewController.h */,
 				E07C14281E55DAA600CE149A /* DetailUIViewController.m */,
+				E0244B511E570FBF0007A076 /* TableViewCell.h */,
+				E0244B521E570FBF0007A076 /* TableViewCell.m */,
 				E07C14131E55D79E00CE149A /* Assets.xcassets */,
 				E07C14151E55D79E00CE149A /* LaunchScreen.storyboard */,
 				E07C14181E55D79E00CE149A /* Info.plist */,
 				E07C14071E55D79E00CE149A /* Supporting Files */,
-				E0244B511E570FBF0007A076 /* TableViewCell.h */,
-				E0244B521E570FBF0007A076 /* TableViewCell.m */,
 			);
-			path = "0216 CostomTableView";
+			path = "0216 CustomTableView";
 			sourceTree = "<group>";
 		};
 		E07C14071E55D79E00CE149A /* Supporting Files */ = {
@@ -151,12 +151,11 @@
 				TargetAttributes = {
 					E07C14031E55D79E00CE149A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = R88N58S2BD;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = E07C13FF1E55D79E00CE149A /* Build configuration list for PBXProject "0216 CostomTableView" */;
+			buildConfigurationList = E07C13FF1E55D79E00CE149A /* Build configuration list for PBXProject "0216 CustomTableView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -250,6 +249,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -297,6 +297,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -321,11 +322,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = R88N58S2BD;
-				INFOPLIST_FILE = "0216 CostomTableView/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/0216 CustomTableView/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "$(SRCROOT)/0216 CustomTableView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "new.-216-CostomTableView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -333,18 +338,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = R88N58S2BD;
-				INFOPLIST_FILE = "0216 CostomTableView/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/0216 CustomTableView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "new.-216-CostomTableView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E07C13FF1E55D79E00CE149A /* Build configuration list for PBXProject "0216 CostomTableView" */ = {
+		E07C13FF1E55D79E00CE149A /* Build configuration list for PBXProject "0216 CustomTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E07C14191E55D79E00CE149A /* Debug */,
