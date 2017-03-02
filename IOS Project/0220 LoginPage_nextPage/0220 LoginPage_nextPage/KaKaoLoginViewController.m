@@ -30,7 +30,37 @@
     UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithCustomView:back];
     self.navigationItem.leftBarButtonItem = item;
     
+    
+ 
 }
+- (IBAction)confimClicked:(UIButton *)sender {
+ 
+    //alertcontroller
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"다시 입력" message:@"다시 입력해주세요." preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"취소버튼이 클릭되었습니다.");
+ 
+    } ];
+    
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"취소" style
+                                                        :UIAlertActionStyleCancel handler:nil];
+    
+    
+    [alertController addAction:okAction];
+    [alertController addAction:cancelAction];
+    
+    [self presentViewController:alertController animated:YES completion:nil];
+    
+    
+    NSString *userPW = @"PW";
+    NSString *userID = @"ID";
+    
+ 
+    
+    
+}
+
 
 
 

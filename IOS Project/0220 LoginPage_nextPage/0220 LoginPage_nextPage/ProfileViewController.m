@@ -14,6 +14,7 @@
 @interface ProfileViewController ()
 //2.uitableview delegate, datasorce delegate  해주고
 <UITableViewDelegate,UITableViewDataSource,UITextViewDelegate>
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @property (weak, nonatomic) IBOutlet UIImageView *ProfileIMG;
 @property (weak, nonatomic) IBOutlet UILabel *profileName;
@@ -32,6 +33,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+//    [self.scrollView setContentSize:CGSizeMake(100, 1000)];
     //1. delegate 부터 하고
     self.myTableView.delegate = self;
     self.myTableView.dataSource = self;

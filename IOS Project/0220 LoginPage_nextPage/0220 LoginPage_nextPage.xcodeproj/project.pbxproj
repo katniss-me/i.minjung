@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E004CF631E67EA9F00EB87A4 /* CountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E004CF621E67EA9F00EB87A4 /* CountViewController.m */; };
 		E009E1061E5E871000713CDF /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E009E1051E5E871000713CDF /* SettingViewController.m */; };
 		E009E1091E5EAF7C00713CDF /* DataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E009E1081E5EAF7C00713CDF /* DataCenter.m */; };
 		E009E10E1E5ED39400713CDF /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E009E10A1E5ED39400713CDF /* 1.png */; };
@@ -25,18 +26,17 @@
 		E0DDAF651E5AD79E0085996F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0DDAF641E5AD79E0085996F /* Assets.xcassets */; };
 		E0DDAF681E5AD79E0085996F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0DDAF661E5AD79E0085996F /* LaunchScreen.storyboard */; };
 		E0DDAF711E5AD8CB0085996F /* KaKaoLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DDAF701E5AD8CB0085996F /* KaKaoLoginViewController.m */; };
-		E0DDAF751E5ADE4B0085996F /* XibUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DDAF731E5ADE4B0085996F /* XibUIViewController.m */; };
-		E0DDAF761E5ADE4B0085996F /* XibUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0DDAF741E5ADE4B0085996F /* XibUIViewController.xib */; };
 		E0DDAF791E5ADF0B0085996F /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DDAF781E5ADF0B0085996F /* ProfileViewController.m */; };
 		E0DDAF7C1E5AE65F0085996F /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DDAF7B1E5AE65F0085996F /* TableViewCell.m */; };
 		E0F942B41E5BED08001986F2 /* smallIMG2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0F942B21E5BED08001986F2 /* smallIMG2.png */; };
 		E0F942B51E5BED08001986F2 /* smallIMG1.png in Resources */ = {isa = PBXBuildFile; fileRef = E0F942B31E5BED08001986F2 /* smallIMG1.png */; };
 		E0F942B71E5C0DDB001986F2 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = E0F942B61E5C0DDB001986F2 /* back.png */; };
-		E0F942B91E5C2D3D001986F2 /* tabicon.png in Resources */ = {isa = PBXBuildFile; fileRef = E0F942B81E5C2D3D001986F2 /* tabicon.png */; };
 		E0F942BB1E5C3D1C001986F2 /* profileIMG.png in Resources */ = {isa = PBXBuildFile; fileRef = E0F942BA1E5C3D1C001986F2 /* profileIMG.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E004CF611E67EA9F00EB87A4 /* CountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountViewController.h; sourceTree = "<group>"; };
+		E004CF621E67EA9F00EB87A4 /* CountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountViewController.m; sourceTree = "<group>"; };
 		E009E1041E5E871000713CDF /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		E009E1051E5E871000713CDF /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		E009E1071E5EAF7C00713CDF /* DataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataCenter.h; path = "0220 LoginPage_nextPage/DataCenter.h"; sourceTree = "<group>"; };
@@ -63,9 +63,6 @@
 		E0DDAF691E5AD79E0085996F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0DDAF6F1E5AD8CB0085996F /* KaKaoLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaKaoLoginViewController.h; sourceTree = "<group>"; };
 		E0DDAF701E5AD8CB0085996F /* KaKaoLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaKaoLoginViewController.m; sourceTree = "<group>"; };
-		E0DDAF721E5ADE4B0085996F /* XibUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibUIViewController.h; sourceTree = "<group>"; };
-		E0DDAF731E5ADE4B0085996F /* XibUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibUIViewController.m; sourceTree = "<group>"; };
-		E0DDAF741E5ADE4B0085996F /* XibUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibUIViewController.xib; sourceTree = "<group>"; };
 		E0DDAF771E5ADF0B0085996F /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		E0DDAF781E5ADF0B0085996F /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		E0DDAF7A1E5AE65F0085996F /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
@@ -73,7 +70,6 @@
 		E0F942B21E5BED08001986F2 /* smallIMG2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallIMG2.png; sourceTree = "<group>"; };
 		E0F942B31E5BED08001986F2 /* smallIMG1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallIMG1.png; sourceTree = "<group>"; };
 		E0F942B61E5C0DDB001986F2 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = ../back.png; sourceTree = "<group>"; };
-		E0F942B81E5C2D3D001986F2 /* tabicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabicon.png; sourceTree = "<group>"; };
 		E0F942BA1E5C3D1C001986F2 /* profileIMG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profileIMG.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E004CF641E68010D00EB87A4 /* count Page */ = {
+			isa = PBXGroup;
+			children = (
+				E004CF611E67EA9F00EB87A4 /* CountViewController.h */,
+				E004CF621E67EA9F00EB87A4 /* CountViewController.m */,
+			);
+			name = "count Page";
+			sourceTree = "<group>";
+		};
 		E00C30FE1E5D9F9100273E26 /* SettingPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,17 +112,6 @@
 				E0F942B61E5C0DDB001986F2 /* back.png */,
 			);
 			name = "login page";
-			sourceTree = "<group>";
-		};
-		E039CB191E5B179F0074BC52 /* xib */ = {
-			isa = PBXGroup;
-			children = (
-				E0DDAF721E5ADE4B0085996F /* XibUIViewController.h */,
-				E0DDAF731E5ADE4B0085996F /* XibUIViewController.m */,
-				E0DDAF741E5ADE4B0085996F /* XibUIViewController.xib */,
-				E0F942B81E5C2D3D001986F2 /* tabicon.png */,
-			);
-			name = xib;
 			sourceTree = "<group>";
 		};
 		E0DDAF4C1E5AD79E0085996F = {
@@ -146,8 +140,8 @@
 		E0DDAF571E5AD79E0085996F /* 0220 LoginPage_nextPage */ = {
 			isa = PBXGroup;
 			children = (
+				E004CF641E68010D00EB87A4 /* count Page */,
 				E00C30FE1E5D9F9100273E26 /* SettingPage */,
-				E039CB191E5B179F0074BC52 /* xib */,
 				E039CB181E5B177D0074BC52 /* login page */,
 				E0F942B11E5BE727001986F2 /* Profile  */,
 				E0DDAF641E5AD79E0085996F /* Assets.xcassets */,
@@ -254,13 +248,11 @@
 				E0F942B41E5BED08001986F2 /* smallIMG2.png in Resources */,
 				E009E10F1E5ED39400713CDF /* 3.png in Resources */,
 				E0F942B51E5BED08001986F2 /* smallIMG1.png in Resources */,
-				E0DDAF761E5ADE4B0085996F /* XibUIViewController.xib in Resources */,
 				E0DDAF681E5AD79E0085996F /* LaunchScreen.storyboard in Resources */,
 				E009E1171E5ED66B00713CDF /* 55.png in Resources */,
 				E0F942B71E5C0DDB001986F2 /* back.png in Resources */,
 				E0DDAF651E5AD79E0085996F /* Assets.xcassets in Resources */,
 				E009E1151E5ED66B00713CDF /* 11.png in Resources */,
-				E0F942B91E5C2D3D001986F2 /* tabicon.png in Resources */,
 				E00C30FD1E5D9F5100273E26 /* setting.png in Resources */,
 				E009E1101E5ED39400713CDF /* 5.png in Resources */,
 				E0DDAF631E5AD79E0085996F /* Main.storyboard in Resources */,
@@ -276,9 +268,9 @@
 			files = (
 				E0DDAF7C1E5AE65F0085996F /* TableViewCell.m in Sources */,
 				E0DDAF711E5AD8CB0085996F /* KaKaoLoginViewController.m in Sources */,
+				E004CF631E67EA9F00EB87A4 /* CountViewController.m in Sources */,
 				E0DDAF5D1E5AD79E0085996F /* AppDelegate.m in Sources */,
 				E039CB171E5B176D0074BC52 /* MasterViewController.m in Sources */,
-				E0DDAF751E5ADE4B0085996F /* XibUIViewController.m in Sources */,
 				E0DDAF791E5ADF0B0085996F /* ProfileViewController.m in Sources */,
 				E009E1091E5EAF7C00713CDF /* DataCenter.m in Sources */,
 				E0DDAF5A1E5AD79E0085996F /* main.m in Sources */,
