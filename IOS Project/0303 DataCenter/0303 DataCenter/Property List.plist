@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>밤슈</string>
+		<key>phonenumber</key>
+		<string>010-3827-3888</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>은징눕</string>
+		<key>phonenumber</key>
+		<string>010-3827-3888</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>도영</string>
+		<key>phonenumber</key>
+		<string>010-3827-3888</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>용묵</string>
+		<key>phonenumber</key>
+		<string>010-3827-3888</string>
+	</dict>
+</array>
+</plist>

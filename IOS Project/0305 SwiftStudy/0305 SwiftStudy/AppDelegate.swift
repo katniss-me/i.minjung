@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  0211 Swift Study
+//  0305 SwiftStudy
 //
-//  Created by katniss on 2017. 2. 11..
+//  Created by katniss on 2017. 3. 5..
 //  Copyright © 2017년 katniss. All rights reserved.
 //
 

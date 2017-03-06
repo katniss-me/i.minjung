@@ -30,15 +30,15 @@
     //    [self.view addGestureRecognizer:tapGesture];
     
     
-    
-    _cameracontroller = [[UIImagePickerController alloc]init];
-    _cameracontroller.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
-    _cameracontroller.allowsEditing = NO;
-    _cameracontroller.delegate = self;
-    
-    
-}
-//
+    //카메라 컨트롤러
+//    _cameracontroller = [[UIImagePickerController alloc]init];
+//    _cameracontroller.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+//    _cameracontroller.allowsEditing = NO;
+//    _cameracontroller.delegate = self;
+//    
+//    
+//}
+////텝 제스쳐 등록
 //    UITapGestureRecognizer *tapGesture;
 //    tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
 //    tapGesture.delegate = self;
@@ -60,19 +60,7 @@
 //    self.text1.text= [NSString stringWithFormat:@"%ld", touch.tapCount];
 //    return YES;
 
-
-//   - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch
-//{
-//
-//
-//    CGPoint temp = [touch locationInView:self.view];
-//    self.Count.text = [NSString stringWithFormat:@"%lf,%lf",temp.x,temp.y];
-//    self.text1.text = [NSString stringWithFormat:@"%ld",touch.tapCount];
-//    return YES;
-//
-
-
-
+//shouldreceivetouch
 //- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch
 //{
 //    CGPoint temp = [touch locationInView:self.view];
@@ -80,33 +68,35 @@
 //
 //    return YES;
 //}
+//
+//
+//- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info
+//{
+//    NSLog(@"info %@",info);
+//    UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
+//    self.imgView.image = image;
+//    
+//}
+//
+//
+//- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
+//{
+//    [picker dismissViewControllerAnimated:YES completion:nil];
+//}
+//
+//
+//
+//
+//
+//- (IBAction)tapHandle:(UITapGestureRecognizer *)sender {
+//    
+//    [self presentViewController:_cameracontroller animated:YES completion:nil];
+//    
+//    
+//}
 
-
-- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info
-{
-    NSLog(@"info %@",info);
-    UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];
-    self.imgView.image = image;
     
 }
-
-
-- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
-{
-    [picker dismissViewControllerAnimated:YES completion:nil];
-}
-
-
-
-
-
-- (IBAction)tapHandle:(UITapGestureRecognizer *)sender {
-    
-    [self presentViewController:_cameracontroller animated:YES completion:nil];
-    
-    
-}
-
 
 
 - (void)didReceiveMemoryWarning {
@@ -114,7 +104,7 @@
     
     
     
-}
+
 
 /*
  #pragma mark - Navigation
@@ -125,5 +115,7 @@
  // Pass the selected object to the new view controller.
  }
  */
-
+}
+  
 @end
+
