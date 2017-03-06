@@ -7,10 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "DataCenter2.h"
 
 @interface ViewController ()
 <UITableViewDelegate,UITableViewDataSource>
-@property NSArray *list;
+
+@property (nonatomic, strong) NSArray *dataList2;
 
 
 @end
@@ -19,18 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
-    self.tableV.delegate=self;
-    self.tableV.dataSource=self;
-    
-    
-    self.dataList = [[Data]]
-    
-//    NSDictionary *dic = [NSDictionary dictionaryWithContentsOfFile:@"친구번호리스트"];
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Property List" ofType:@"plist"];
-    self.list = [NSArray arrayWithContentsOfFile:filePath];
-    NSLog(@"list %@", self.list);
+    self.dataList2 = [[DataCenter2 singletone]loadFriendListVer2];
     
 
     
@@ -39,13 +30,18 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    
+    if (self.dataList2.count<[DataCenter2 singletone].friendCount) {
+        self.dataList2 = [[DataCenter2 singletone]loadFriendListVer2];
+        [self.tableV reloadData];
+        
+    }
    
-    
+  
     
 }
 
-
+//step1
+- (UITableViewCell *)
 
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
