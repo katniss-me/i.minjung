@@ -71,10 +71,59 @@ default:
 }
 
 
-func great(person:String) -> String {
-    let greeting = <#value#>
+//func
+
+func sayHello() {
+    print("hello")
+}
+
+sayHello()
+func sayHello2(name:String){
+    print("hello \(name)")
     
 }
+
+sayHello2(name:"minjung")
+func sayhello3(name:String)->String{
+  return "Hello" + name
+}
+
+
+print(sayhello3(name:"minjung"))
+func sayHello4(name:String="minjung"){
+    print("Hello\(name)")
+    
+}
+//값을 넣어주면 넣은 걸로 출력, 안 넣어주면 기
+
+func sayHello5(insertName:String,internationalAge:Int){
+ 
+}
+    
+sayHello5(insertName:"katniss",internationalAge:29)
+func sayHello6(name:String,age:Int)->String{
+return "\(name)is \(age)years old"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

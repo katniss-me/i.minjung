@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -20,12 +22,12 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string></string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>이앱을 사용하는동안 사용자의 위치정보를 얻어옵니다.</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
