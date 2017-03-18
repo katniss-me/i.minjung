@@ -20,6 +20,7 @@
 		E00C30FD1E5D9F5100273E26 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = E00C30FC1E5D9F5100273E26 /* setting.png */; };
 		E00C31041E5D9FF800273E26 /* SettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E00C31031E5D9FF800273E26 /* SettingTableViewCell.m */; };
 		E039CB171E5B176D0074BC52 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E039CB161E5B176D0074BC52 /* MasterViewController.m */; };
+		E0A78CCE1E7266EF00BCD7B6 /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A78CCD1E7266EF00BCD7B6 /* TabbarViewController.m */; };
 		E0DDAF5A1E5AD79E0085996F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DDAF591E5AD79E0085996F /* main.m */; };
 		E0DDAF5D1E5AD79E0085996F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DDAF5C1E5AD79E0085996F /* AppDelegate.m */; };
 		E0DDAF631E5AD79E0085996F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0DDAF611E5AD79E0085996F /* Main.storyboard */; };
@@ -53,6 +54,8 @@
 		E00C31031E5D9FF800273E26 /* SettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTableViewCell.m; sourceTree = "<group>"; };
 		E039CB151E5B176D0074BC52 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = "0220 LoginPage_nextPage/MasterViewController.h"; sourceTree = "<group>"; };
 		E039CB161E5B176D0074BC52 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = "0220 LoginPage_nextPage/MasterViewController.m"; sourceTree = "<group>"; };
+		E0A78CCC1E7266EF00BCD7B6 /* TabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
+		E0A78CCD1E7266EF00BCD7B6 /* TabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
 		E0DDAF551E5AD79E0085996F /* 0220 LoginPage_nextPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0220 LoginPage_nextPage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0DDAF591E5AD79E0085996F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E0DDAF5B1E5AD79E0085996F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "0220 LoginPage_nextPage/AppDelegate.h"; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 		E0DDAF4C1E5AD79E0085996F = {
 			isa = PBXGroup;
 			children = (
+				E0A78CCC1E7266EF00BCD7B6 /* TabbarViewController.h */,
+				E0A78CCD1E7266EF00BCD7B6 /* TabbarViewController.m */,
 				E0DDAF5B1E5AD79E0085996F /* AppDelegate.h */,
 				E0DDAF5C1E5AD79E0085996F /* AppDelegate.m */,
 				E009E1071E5EAF7C00713CDF /* DataCenter.h */,
@@ -267,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0DDAF7C1E5AE65F0085996F /* TableViewCell.m in Sources */,
+				E0A78CCE1E7266EF00BCD7B6 /* TabbarViewController.m in Sources */,
 				E0DDAF711E5AD8CB0085996F /* KaKaoLoginViewController.m in Sources */,
 				E004CF631E67EA9F00EB87A4 /* CountViewController.m in Sources */,
 				E0DDAF5D1E5AD79E0085996F /* AppDelegate.m in Sources */,

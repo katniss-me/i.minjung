@@ -45,25 +45,25 @@ static const CGFloat BASE_LONGITUDE = -122.431238;
     [self.mapView setShowsUserLocation:YES];
     
 }
-
-- (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation
-{
-    
-    static NSString *const kPinAnnotationIdentifier = @"pin";
-    
-    MKAnnotationView *newanno = (MKAnnotationView*)[self.mapView dequeueReusableAnnotationViewWithIdentifier:kPinAnnotationIdentifier];
-    
-    if (newanno == nil) {
-        newanno = [[MKAnnotationView alloc]
-                   initWithAnnotation:annotation reuseIdentifier:kPinAnnotationIdentifier];
-
-        
-        
-        return annotation;
-    
-
-  
-}
+//
+//- (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation
+//{
+//    
+//    static NSString *const kPinAnnotationIdentifier = @"pin";
+//    
+//    MKAnnotationView *newanno = (MKAnnotationView*)[self.mapView dequeueReusableAnnotationViewWithIdentifier:kPinAnnotationIdentifier];
+//    
+//    if (newanno == nil) {
+//        newanno = [[MKAnnotationView alloc]
+//                   initWithAnnotation:annotation reuseIdentifier:kPinAnnotationIdentifier];
+//
+//        
+//        
+//        return annotation;
+//    
+//
+//  
+//}
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations
 {
