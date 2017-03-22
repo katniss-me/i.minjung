@@ -54,8 +54,10 @@ func removeBook(_ name:String){
         if bookTemp.name == name{
             let index = (bookList as NSArray).index(of:bookTemp)
             bookList.remove(at:index)
+            return true
         }
     }
+    return false
 }
 
 

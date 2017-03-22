@@ -10,7 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
     let myBook = BookManager()
+    
    @IBOutlet var outputTextView:UITextView!
+    
+    @IBOutlet var nameTextField:UITextField!
+    @IBOutlet var genreTextField:UITextField!
+    @IBOutlet var authorTextField:UITextField!
+    @IBOutlet var countLabel:UILabel!
     
     
     override func viewDidLoad() {
@@ -37,11 +43,50 @@ class ViewController: UIViewController {
         myBook.addbook(book1)
         myBook.addbook(book2)
         myBook.addbook(book3)
+        
+        countLabel.text = "\(myBook.countBook())"
+        
+        
     }
     
         @IBAction func showAllBookAction(_ sender:AnyObject){
 //        print(myBook.showAllBook())
             outputTextView.text = myBook.showAllBook()
+    }
+    
+        @IBAction func addBookAction(_sender:AnyObject){
+        let bookTemp = Book()
+            
+            bookTemp.name = nameTextField.text!
+            bookTemp.genre = genreTextField.text!
+            bookTemp.author = authorTextField.text!
+            
+            myBook.addbook(bookTemp)
+            outputTextView.text = "\(nameTextField.text!) 도서가 등록되었습니다"
+            countLabel.text = "\(myBook.countBook())"
+            
+    }
+    
+    @IBAction func findBookAction(_ sender:AnyObject){
+        let resultBook = myBook.findBook(nameTextField.text!)
+        if resultBook = nil {
+            outputTextView.text = resultBook
+            
+        }else{
+            outputTextView.text = "찾으시는 책이 없습니다."
+        }
+        
+    }
+    @IBAction func removeBookAction(_ sender:AnyObject){
+        let deleteBook = myBook.removeBookAction(nameTextField.text!)
+        if deleteBook == true{
+            outputTextView.text = "\(nameTextField.text!) 도서가 지워졌습니다."
+            countLabel.text = "\(myBook.countBook())"
+            
+        }else{
+            outputTextView.text = "지우려는 책이 없는데요"
+        }
+        
     }
     
 
